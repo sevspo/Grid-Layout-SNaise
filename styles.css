@@ -17,6 +17,8 @@ body {
   line-height: 1.5;
 }
 
+/* Header Showcase */
+
 .back-image {
   background-image: url("/images/jeroen-den-otter-1169089-unsplash.jpg");
   position: absolute;
@@ -30,8 +32,30 @@ body {
   opacity: 0.5;
 }
 
+#showcase .content-wrap {
+  height: 450px;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid bisque ;
+  padding: 0.5em;
+  background: beige;
+  text-decoration: none;
+  margin: 0.5em;
+  color: darkslategray;
+}
+
+.btn:hover {
+  color: rgb(17, 22, 22);
+  background: burlywood;
+}
+
+/* Body */
+
 img {
   display: block;
   width: 100%;
   height: auto;
 }
+
